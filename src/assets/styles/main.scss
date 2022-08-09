@@ -1,0 +1,25 @@
+@import 'colors';
+
+*{
+    font-size: 14;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Gilroy', Arial, Helvetica, sans-serif
+  }
+  
+  .app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+  }
+  
